@@ -1,0 +1,79 @@
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #ccfcf6;
+}
+
+.thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+}
+
+.thumbnail p {
+      margin-top: 20px;
+      color: white;
+}
+
+.kontak{
+	padding: 0 340px 0 340px;
+	text-align: left;
+
+}
+
+input {
+    line-height: 20em; // 2em is (2 * default line height)
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 17px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: black;color:white}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#p1,#p2,#p3{
+    font-size: 12px;
+    color : red;
+}
+
+.form-group{
+    margin-bottom: 7px;
+}
+
+.car1{
+    padding-left: 13px;
+    color:white;
+    text-align: left;
+    font-weight: 900;
+    font-size: 27px;
+    position: absolute;
+    top:450px;
+    left: 230;
+    width: 700px;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.car2{
+    opacity: 1;
+}
